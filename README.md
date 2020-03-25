@@ -1,6 +1,6 @@
 # Terraform Configuration for EC2
 
-This [configuration](./main.tf) will set up AWS EC2 instance with
+The [main.tf configuration](./main.tf) will set up AWS EC2 instance with
 
 * Ubuntu 18.04 Server
 * Nginx
