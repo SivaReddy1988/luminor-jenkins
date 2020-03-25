@@ -1,6 +1,6 @@
 # Terraform Configuration for EC2
 
-The [main.tf configuration](./main.tf) will set up AWS EC2 instance with
+The [main.tf configuration](./main.tf) will set up AWS EC2 instance and attach Elastic IP with
 
 * Ubuntu 18.04 Server
 * Nginx
@@ -18,17 +18,13 @@ Install them locally:
 
 
 ## Variables:
-
+```yaml
 region: "aws region"
-
-amis (map): "region" = "ami_id"
-
-aws_keys (map): access and secret keys
-
+amis(map): "region" = "ami_id"
+aws_keys(map): access and secret keys
 ssh_pubkey: SSH public key location
-
 ssh_privkey: SSH private key location
-
+```
 
 ## Example usage:
 
