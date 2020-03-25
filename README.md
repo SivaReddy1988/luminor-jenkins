@@ -13,8 +13,8 @@ The [main.tf configuration](./main.tf) will set up AWS EC2 instance with
 
 Install them locally:
 
-* (AWS CLI)[https://aws.amazon.com/cli/]
-* (Terraform)[https://www.terraform.io/downloads.html]
+* [AWS CLI](https://aws.amazon.com/cli/)
+* [Terraform](https://www.terraform.io/downloads.html)
 
 
 ## Variables:
