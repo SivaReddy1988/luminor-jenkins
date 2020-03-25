@@ -20,8 +20,8 @@ Install them locally:
 ## Variables:
 ```yaml
 region: "aws region"
-amis (map): "region" = "ami_id"
-aws_keys (map): access and secret keys
+amis(map): "region" = "ami_id"
+aws_keys(map): access and secret keys
 ssh_pubkey: SSH public key location
 ssh_privkey: SSH private key location
 ```
